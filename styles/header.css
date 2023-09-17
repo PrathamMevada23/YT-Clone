@@ -4,6 +4,8 @@
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
+    padding-left: 10px;
+    padding-right: 20px;
     top: 0;
     left: 0;
     right: 0;
@@ -25,6 +27,9 @@
     align-items: center;
     padding: 8px;
 }
+.menu-icon{
+    cursor: pointer;
+}
 
 .youtube{
     height: 20px;
@@ -36,7 +41,7 @@
     margin-left: 60px;
     margin-right: 35px;
     flex: 1;
-    max-width: 500px;
+    max-width: 600px;
     display: flex;
     align-items: center;
 }
@@ -76,6 +81,7 @@
 .upload-icon,
 .apps-icon,
 .noti-icon {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
